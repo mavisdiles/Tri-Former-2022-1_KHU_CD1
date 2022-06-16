@@ -6,13 +6,14 @@ Transformer는 Self-attention mechanism의 장점을 통해 순차적 데이터�
 
 ## Architecture
 
+### Tri-former의 최종 Architecture 
 <div align="center"><img src="./Image/Tri-former.png" width="100%" height="100%"></div>
 
-### Tri-former의 최종 Architecture  
+### Tri-Decomp diagram 
 
 <div align="center"><img src="./Image/Tri-Decomp.png" width="60%" height="60%"></div>
 
-### Tri-Decomp diagram  
+ 
 
 
 
@@ -33,10 +34,10 @@ bash ./scripts/ILI_script/Triformer.sh
 
 ## Main Results
 
-<div align="center"><img src="./Image/result.png" width="60%" height="60%"></div>
-
 ### Triformer와 Autoformer 성능 비교
 #### Exchange data (input length:96, prediction length:96)
+
+<div align="center"><img src="./Image/result.png" width="60%" height="60%"></div>
 
 
 ## Contributing
